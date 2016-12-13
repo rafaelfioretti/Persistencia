@@ -22,10 +22,11 @@ public class LivroDAO {
                 + Livro.ID + " integer primary key autoincrement, "
                 + Livro.TITULO + " text, "
                 + Livro.AUTOR + " text, "
-                + Livro.EDITORA + " text)";
+                + Livro.EDITORA + " text )";
     }
 
     public String insereDado(Livro livro) {
+
         ContentValues valores;
         long resultado;
 
